@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section > header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2%;
+    border: 1px solid rgba(255, 192, 203, 0.422);
+    margin-bottom: 8px;
+}
+
+section > header > h1{
+    color: pink;
+}
+
+section > header > img{
+    width: 150px;
+    height: 80px;
+}
+
+section >header > nav{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+section >header > nav > a{
+    font-size: 18px;
+}
+
+section > div.Banner{
+    padding: 8px 1%;
+    background-color: rgba(21, 21, 115, 0.733);
+    color: whitesmoke;
+}
+
+section > div.Banner > div.ima{
+    height: 600px;
+    background-image: url('../../images/NightSky.jpeg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
