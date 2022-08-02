@@ -1,0 +1,1 @@
+Projeto feito para Reanimar o Meu Git. A área espacial é algo que me atrai e me satisfaz como pessoa, por esse motivo resolvi criar o Resumo Espacial. O site terá noticias do mundo espacial e suas agencias usando como fontes os sites e blogs ex: NASA, NasaSpacefly, JAXA, ESA,  Space Today, etc. 
