@@ -13,6 +13,10 @@ main > section.sec1{
     align-items: center;
 }
 
+main > section.sec1{
+    
+}
+
 main > section.sec1 > h2{
     max-width: 670px;
     text-align: center;
