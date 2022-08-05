@@ -108,7 +108,6 @@ c
           </p>
         </article>
       </section>
-      <h1>Main</h1>
     </main>
   )
 }

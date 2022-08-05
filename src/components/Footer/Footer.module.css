@@ -1,0 +1,14 @@
+footer{
+    background-color: rgb(170, 170, 170);
+    /* color: white; */
+}
+
+footer > section.sec1{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > h1{
+    text-align: center;
+    background-color: rgb(141, 140, 140);
+}
