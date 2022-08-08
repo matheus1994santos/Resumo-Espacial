@@ -1,0 +1,21 @@
+ div.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 8px 4%;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+}
+
+div.Banner > div.mySlides{
+    
+}
+
+div.Banner > div.mySlides > img{
+    height: 480px;
+    max-width:1000px;
+}

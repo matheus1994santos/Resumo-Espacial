@@ -33,16 +33,3 @@ section >header > nav > a{
     font-size: 18px;
 }
 
-section > div.Banner{
-    padding: 8px 1%;
-    background-color: rgba(21, 21, 115, 0.733);
-    color: whitesmoke;
-}
-
-section > div.Banner > div.ima{
-    height: 600px;
-    background-image: url('../../images/NightSky.jpeg');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
