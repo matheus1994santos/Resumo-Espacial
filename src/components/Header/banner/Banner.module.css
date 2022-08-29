@@ -7,15 +7,32 @@
     position: relative;
     margin: auto;
     height: 600px;
-    background-color: rgb(36, 36, 36);
+    background-color: rgba(36, 36, 36, 0.915);
     color: whitesmoke;
+    position:relative;
 }
 
 div.Banner > div.mySlides{
-    
+    position: absolute;
+    left: auto;
+    margin: 0 2%;
 }
 
 div.Banner > div.mySlides > img{
     height: 480px;
     max-width:1000px;
+    width: 100%;
+    margin: auto;
+}
+
+div.Banner > a.Ant{
+    position: absolute;
+    left: 20%;
+    margin: 0 4%;
+}
+
+div.Banner > a.Next{
+    position: absolute;
+    right: 20%;
+    margin: 0 4%;
 }

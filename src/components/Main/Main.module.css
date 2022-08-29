@@ -1,49 +1,55 @@
-main{
-    /* margin-top: 16px; */
-    padding: 8px 2%;
+.container0{
+    max-width: 1280px;
+    background-color: rgba(221, 255, 71, 0.419);
+    margin: 4px auto;
+    padding: 24px 2%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+.container1{
+    max-width: 1280px;
+    background-color: rgba(255, 102, 71, 0.334);
+    margin: 4px auto;
+    padding: 24px 2%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.cont{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: rgba(204, 204, 204, 0.481);
+    padding: 4% 0;
 }
 
-main > section.sec1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main > section.sec1{
-    
-}
-
-main > section.sec1 > h2{
-    max-width: 670px;
+.cont > h1{
     text-align: center;
-    margin: 12px 0;
-}
-
-main > section.sec1 > div{
-    margin: 14px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main > section.sec1 > div > img{
-    width: 460px;
-    height: 340px;
-    margin-bottom: 8px;
-}
-
-main > section.sec1 > div > h5{
-    max-width: 640px;
-    text-align: justify;
-}
-
-main > section.sec1 > article > p{
-    font-size: 18px;
-    max-width: 1200px;
     margin-bottom: 12px;
+}
+
+.cont > p{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.cont > div{
+    display: flex;
     text-align: justify;
+    align-items: center;
+    max-width: 760px;
+    gap: 12px;
+}
+
+.cont > div > p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.cont > div > img{
+    max-width: 440px;
+    max-height: 280px;
+    border: 0.3px solid rgb(135, 218, 235);
 }
