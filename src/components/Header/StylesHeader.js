@@ -4,10 +4,10 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 2%;
+    background-color: #00006D;
     border: 1px solid rgba(255, 192, 203, 0.422);
     border-radius: 18px;
-    box-shadow: -2px 2px 5px rgba(255, 192, 203, 0.422);
+    box-shadow: -2px 2px 5px rgba(255, 192, 203, 0.622);
     margin-bottom: 8px;
 
     & img{
