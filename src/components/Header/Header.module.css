@@ -2,34 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
-section > header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 2%;
-    border: 1px solid rgba(255, 192, 203, 0.422);
-    margin-bottom: 8px;
+body{
+    background-color: #000049;
 }
 
-section > header > h1{
-    color: pink;
+.Container{
+    /* padding: 0 2%; */
+    margin: 8px 0;
 }
 
-section > header > img{
-    width: 150px;
-    height: 80px;
+.col{
+    
+background-color: #3811e7;
 }
-
-section >header > nav{
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    justify-content: space-around;
-}
-
-section >header > nav > a{
-    font-size: 18px;
-}
-

@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoSite from '../../../images/LogoSite.png'
+import LogoSite from '../../../images/LogoSite.svg'
 
 const Marca = () => {
   return (
