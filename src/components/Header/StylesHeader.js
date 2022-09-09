@@ -21,11 +21,14 @@ export const HeaderContainer = styled.header`
         gap: 8px;
         justify-content: space-around;
         background-color: none;
+        font-family: 'Open Sans', sans-serif;
+        height: 20px;
 
         & a{
-            font-size: 18px;
+            font-size: 16px;
             cursor: pointer;
             color: white;
+            font-weight: bold;
             background-color: none;
 
             :hover{
