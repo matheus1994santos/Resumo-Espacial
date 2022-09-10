@@ -24,7 +24,7 @@ const Main = () => {
       { dados && dados.map( ({id, imageUrl, newsSite, publisheAt, summary, title, updateAt, url }) => (
         // <section className={(id) % 2 != 0 ? styles.container0 : styles.container1}>
           <Article  key={id}>
-            <div className={`cont`} >
+            <div className={ `cont ${newsSite}` } >
               <h1>{title}</h1>
               <p className='Report'>Reportagem do <span><b>{newsSite}</b></span></p>
               <div>

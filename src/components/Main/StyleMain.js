@@ -76,35 +76,19 @@ export const Article = styled.article`
         }
     }
 
-    & .cont1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 4% 0;
+    & .NASASpaceflight{
+        background-color: #d15e60;
+    }
 
-        & p{
-            text-align: center;
-            margin-bottom: 12px;
-        }
+    & .SpaceNews{
+        background-color: #EB1D24;
+    }
 
-        & div{
-            display: flex;
-            text-align: justify;
-            align-items: center;
-            max-width: 760px;
-            gap: 12px;
+    & .Teslarati{
+        background-color: #23d100;
+    }
 
-            & p{
-                text-align: justify;
-                font-size: 18px;
-            }
-        }
-
-        & img{
-            max-width: 440px;
-            max-height: 280px;
-            border: 0.3px solid rgb(135, 218, 235);
-        }
+    & .Arstechnica{
+        background-color: #ff4e00;
     }
 `;
