@@ -1,20 +1,27 @@
 import styled from "styled-components";
 
-export const MainA = styled.main`
+export const Main0 = styled.section`
+    display: flex;
     padding: 0 2%;
-    margin: 18px 0;
+    gap: 45px;
+`;
+
+export const MainA = styled.main`
+    /* padding: 0 2%; */
+    /* margin: 18px 0; */
+    color: white;
 `;
 
 export const Article = styled.article`
     /* max-width: 1280px; */
     display: flex;
     justify-content: center;
-    margin: 14px auto;
+    margin: 20px auto;
     padding: 12px 2%;
-    border-radius: 18px;
-    background-color: rgba(255, 255, 255, 0.059);
-    /* border: 1px solid rgba(255, 192, 203, 0.422); */
-    border-radius: 18px;
+    /* border-radius: 18px; */
+    /* background-color: rgba(0, 0, 73, 0.259);  */
+    background-color: rgba(0, 0, 0, 0.5); 
+    /* border: 1px solid black; */
     box-shadow: -1px 1px 4px rgba(255, 255, 255, 0.622);
     font-family: 'Ubuntu', sans-serif;
 
@@ -86,9 +93,14 @@ export const Article = styled.article`
 
     & .Teslarati{
         background-color: #23d100;
+        color: black;
     }
 
     & .Arstechnica{
         background-color: #ff4e00;
+    }
+
+    & .Spaceflight{
+        background-color: #990000;
     }
 `;
