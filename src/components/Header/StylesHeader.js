@@ -6,7 +6,7 @@ export const HeaderBanner = styled.header`
     display: flex;
     flex-direction: column;
     height: 680px;
-    margin-bottom: 92px;
+    margin-bottom: 0px;
     background-image: url(${MoonHeader});
     background-size: cover;
     background-position: center;
