@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
+
 export const BanneR = styled.div`
-    position: absolute;
-    top: 580px;
-    left: 350px;
+    margin: 0 auto;
+    margin-top: 280px;
     padding: 12px 4%;
     border-radius: 24px;
     display: flex;
@@ -11,8 +11,9 @@ export const BanneR = styled.div`
     background-color: rgba( 0, 0, 0, 1);
     border: 2px solid;
     align-items: center;
-
+    
     & h1{
+        text-align: center;
         font-size: 50px;
     }
 
@@ -23,3 +24,4 @@ export const BanneR = styled.div`
         max-width: 680px;
     }
 `;
+

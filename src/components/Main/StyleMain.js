@@ -13,20 +13,15 @@ export const MainA = styled.main`
 `;
 
 export const Article = styled.article`
-    /* max-width: 1280px; */
     display: flex;
     justify-content: center;
-    margin: 20px auto;
-    padding: 12px 2%;
-    /* border-radius: 18px; */
-    /* background-color: rgba(0, 0, 73, 0.259);  */
-    background-color: rgba(0, 0, 0, 0.5); 
-    /* border: 1px solid black; */
+    padding: 8px 2%;
     box-shadow: -1px 1px 4px rgba(255, 255, 255, 0.622);
+    border-bottom: 7px dashed rgba(0, 200, 200, 0.8);
     font-family: 'Ubuntu', sans-serif;
 
     & .cont{
-        max-width: 1280px;
+        max-width: 1100px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -48,8 +43,11 @@ export const Article = styled.article`
         & h1{
             font-weight: bold;
             text-align: center;
-            padding: 2px 4%;
+            padding: 4px 4%;
+            max-width: 900px;
+            border-radius: 8px;
             margin: 4px 0;
+            background-color: rgba(0, 0, 0, 0.222);
             border: 2px solid rgba(255, 255, 255, 0.322);
         }
 
@@ -59,27 +57,29 @@ export const Article = styled.article`
 
         & div{
             display: flex;
+            flex-direction: column-reverse;
             text-align: justify;
             align-items: center;
-            grid: 18px;
             max-width: 760px;
-            gap: 12px;
+            gap: 10px;
 
             & > p{
                 text-align: justify;
-                font-size: 18px;
+                font-size: 21px;
                 margin-bottom: 12px;
-                padding: 4px;
+                padding: 8px;
                 border-left: 2px solid rgba(255, 255, 255, 0.522);
                 border-bottom: 2px solid rgba(255, 255, 255, 0.522);
                 box-shadow: -0px 2px 4px rgba(255, 255, 255, 0.622);
+                background-color: rgba(0, 0, 0, 0.222);
+                border-radius: 8px;
             }
         }
 
         & img{
             max-width: 440px;
             max-height: 280px;
-            border: 0.3px solid rgb(135, 218, 235);
+            border: 6px groove rgb(235, 218, 235);
         }
     }
 
