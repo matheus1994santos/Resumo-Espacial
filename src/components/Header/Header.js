@@ -1,17 +1,18 @@
 import React from 'react'
-import styles from './Header.module.css'
+import Banner from './Banner/Banner';
 import Marca from './Logo/Marca';
 import Menu from './menu/Menu';
-import { HeaderContainer } from './StylesHeader';
+import { HeaderBanner, HeaderContainer } from './StylesHeader';
 
 const Header = () => {
   return (
-    <section className={styles.Container}>
+    <HeaderBanner>
       <HeaderContainer>
         <Marca/>
         <Menu/>
       </HeaderContainer>
-    </section>
+      <Banner/>
+    </HeaderBanner>
   )
 }
 

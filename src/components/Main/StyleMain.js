@@ -1,18 +1,29 @@
 import styled from "styled-components";
 
-export const MainA = styled.main`
+export const Main0 = styled.section`
+    display: flex;
     padding: 0 2%;
-    margin: 8px 0;
+    gap: 45px;
+`;
+
+export const MainA = styled.main`
+    /* padding: 0 2%; */
+    /* margin: 18px 0; */
+    color: white;
 `;
 
 export const Article = styled.article`
     /* max-width: 1280px; */
     display: flex;
     justify-content: center;
-    margin: 8px auto;
+    margin: 20px auto;
     padding: 12px 2%;
-    border-radius: 18px;
-    background-color: rgba(255, 255, 255, 0.089);
+    /* border-radius: 18px; */
+    /* background-color: rgba(0, 0, 73, 0.259);  */
+    background-color: rgba(0, 0, 0, 0.5); 
+    /* border: 1px solid black; */
+    box-shadow: -1px 1px 4px rgba(255, 255, 255, 0.622);
+    font-family: 'Ubuntu', sans-serif;
 
     & .cont{
         max-width: 1280px;
@@ -24,6 +35,7 @@ export const Article = styled.article`
         padding: 4% 8px;
         border-radius: 18px;
         background-color: #0000FF;
+        border: 1px solid rgba(255, 255, 255, 0.622);
 
         & p.LinkP{
             padding: 8px 4px;
@@ -34,8 +46,11 @@ export const Article = styled.article`
         }
 
         & h1{
+            font-weight: bold;
             text-align: center;
+            padding: 2px 4%;
             margin: 4px 0;
+            border: 2px solid rgba(255, 255, 255, 0.322);
         }
 
         & p.Report{
@@ -54,6 +69,10 @@ export const Article = styled.article`
                 text-align: justify;
                 font-size: 18px;
                 margin-bottom: 12px;
+                padding: 4px;
+                border-left: 2px solid rgba(255, 255, 255, 0.522);
+                border-bottom: 2px solid rgba(255, 255, 255, 0.522);
+                box-shadow: -0px 2px 4px rgba(255, 255, 255, 0.622);
             }
         }
 
@@ -64,35 +83,24 @@ export const Article = styled.article`
         }
     }
 
-    & .cont1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 4% 0;
+    & .NASASpaceflight{
+        background-color: #d15e60;
+    }
 
-        & p{
-            text-align: center;
-            margin-bottom: 12px;
-        }
+    & .SpaceNews{
+        background-color: #EB1D24;
+    }
 
-        & div{
-            display: flex;
-            text-align: justify;
-            align-items: center;
-            max-width: 760px;
-            gap: 12px;
+    & .Teslarati{
+        background-color: #23d100;
+        color: black;
+    }
 
-            & p{
-                text-align: justify;
-                font-size: 18px;
-            }
-        }
+    & .Arstechnica{
+        background-color: #ff4e00;
+    }
 
-        & img{
-            max-width: 440px;
-            max-height: 280px;
-            border: 0.3px solid rgb(135, 218, 235);
-        }
+    & .Spaceflight{
+        background-color: #990000;
     }
 `;
