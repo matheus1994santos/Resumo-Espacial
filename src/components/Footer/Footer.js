@@ -1,23 +1,25 @@
 import React from 'react'
-import styles from './Footer.module.css'
+import { FooterContainer } from './FooterStyled'
 
 const Footer = () => {
   return (
-    <footer>
-      <section className={styles.sec1}>
+    <FooterContainer>
+      <div>
+        <h1>Resumo Espacial</h1>
+      </div>
+      <section>
         <div>
-          <h1>R.E Comunicação e Audio Visual@</h1>
+          <h1>R.E Comunicação e Audio Visual</h1>
         </div>
         <div>
           <ul>
-            <li>Redes Sociais</li>
-            <li>Redes Sociais</li>
-            <li>Redes Sociais</li>
+            <li><a>Twitter</a></li>
+            <li><a>Instagram</a></li>
+            <li><a>Facebook</a></li>
           </ul>
         </div>
       </section>
-      <h1>Footer</h1>
-    </footer>
+    </FooterContainer>
   )
 }
 

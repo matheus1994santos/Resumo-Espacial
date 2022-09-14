@@ -14,7 +14,6 @@ const Main = () => {
   
   )
   
-
   return (
       <MainA>
         { dados && dados.map( ({id, imageUrl, newsSite, publisheAt, summary, title, updateAt, url }) => (
@@ -24,12 +23,9 @@ const Main = () => {
                 <h1>{title}</h1>
                 <p className='Report'>Reportagem do <span><b>{newsSite}</b></span></p>
                 <div>
-                  <p>{'-'} {summary}</p>
+                  <p>{'-'} {summary} <a href={url}> {'>> Continue a leitura.'}</a></p>
                   <img src={imageUrl} />
                 </div>
-                <p className="LinkP">
-                  Link da fonte: <a href={url}>{url}</a>
-                </p>
               </div>
 
             </Article>

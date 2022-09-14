@@ -36,7 +36,7 @@ export const Article = styled.article`
             padding: 8px 4px;
             margin: 8px 0;
             & a{
-                    text-decoration: none;
+                text-decoration: none;
             }
         }
 
