@@ -1,8 +1,8 @@
 import React from 'react'
-import Banner from './Banner/Banner';
 import Marca from './Logo/Marca';
 import Menu from './menu/Menu';
 import { HeaderBanner, HeaderContainer } from './StylesHeader';
+import Banner from './Banner';
 
 const Header = () => {
   return (
